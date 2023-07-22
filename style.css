@@ -1,0 +1,35 @@
+#simon-board {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.simon-btn {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+}
+
+#btn-0 {
+  background: green;
+  top: 0;
+  left: 0;
+}
+
+#btn-1 {
+  background: red;
+  top: 0;
+  right: 0;
+}
+
+#btn-2 {
+  background: yellow;
+  bottom: 0;
+  left: 0;
+}
+
+#btn-3 {
+  background: blue;
+  bottom: 0;
+  right: 0;
+}
